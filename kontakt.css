@@ -1,0 +1,18 @@
+.mapbox {
+    display: flex;
+  }
+  .map {
+    justify-content: right;
+    margin: 20px;
+    flex-shrink: 1;
+  }
+.card   {
+    padding: 25px;
+    margin: 25px;
+}
+.tobs {
+    width: 50vh;
+}
+.disclaimer {
+  background-color: bisque;
+}

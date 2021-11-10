@@ -1,0 +1,37 @@
+.navbar-lewagon {
+    justify-content: space-between;
+    background: white;
+
+  }
+  
+  .navbar-lewagon .navbar-collapse {
+    flex-grow: 0;
+  }
+  
+  .navbar-lewagon .navbar-brand img {
+    width: 120px;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .nav-elements {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    flex-grow: 1;
+    text-align: center;
+ /* for developemtent only!! */
+    background-color: white;
+  }
+  
+  .nav-elements:hover {
+    color: black;
+    text-decoration: none;
+    opacity: 0.7;
+  }
+  .active-breadcrum {
+    border-bottom: 5px solid #aa1f20;
+  }
+  

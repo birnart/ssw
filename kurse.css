@@ -1,0 +1,188 @@
+/* .coursecard {
+    transition: 0.7s;
+
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1504480899134-8d1752cc1162?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2169&q=80);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    min-height: 50vh;
+
+  } */
+  
+  .coursecard h2 {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 52px;
+    font-weight: bold;
+  }
+
+  .coursecard h6 {
+
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    opacity: 0.9;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }  
+  .coursecard h4 {
+
+    margin: 0;
+    /* font-size: 30px; */
+    color: white;
+    opacity: 0.9;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+  /* .coursecard p {
+    transition: 0.4s;
+
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    opacity: 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  } */
+  .coursecard {
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    min-height: 50vh;
+  }
+  
+  /* .coursecard h2:hover {
+    margin-top: 20;
+    margin-left: 50;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 52px;
+    font-weight: bold;
+  } */
+  
+  .coursecard p {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+
+  .coursecard li {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+
+hr {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .coursecardb {
+    transition: 0.7s;
+
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1578311724531-36fd78d4535c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1188&q=80);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    min-height: 50vh;
+
+  }
+  
+  .coursecardb h2 {
+
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 52px;
+    font-weight: bold;
+  }
+  
+  .coursecardb p {
+    transition: 0.4s;
+
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    opacity: 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+  .coursecardb:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1578311724531-36fd78d4535c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1188&q=80);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    height: 50vh;
+
+  }
+  
+  /* .coursecard h2:hover {
+    margin-top: 20;
+    margin-left: 50;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 52px;
+    font-weight: bold;
+  } */
+  
+  /* .coursecardb p:hover {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    opacity: 0.8;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+  .coursecardc {
+    transition: 0.7s;
+
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1579156618335-f6245e05236a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1160&q=80);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    min-height: 50vh;
+  }
+  
+  .coursecardc h2 {
+    margin-top: 20;
+    margin-left: 50;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 52px;
+    font-weight: bold;
+  }
+  
+  .coursecardc p {
+    transition: 0.4s;
+
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    opacity: 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+  .coursecardc:hover {
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)), url(https://images.unsplash.com/photo-1579156618335-f6245e05236a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1160&q=80);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    min-height: 50vh;
+
+  }
+  
+  /* .coursecard h2:hover {
+    margin-top: 20;
+    margin-left: 50;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 52px;
+    font-weight: bold;
+  } */
