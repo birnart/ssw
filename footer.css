@@ -17,14 +17,13 @@
   }
   .footer a {
     color: black;
-    opacity: 0.15;
+    opacity: 0.5;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 30px;
     padding: 0px 10px;
   }
   .footer a:hover {
     /* color: $danger; */
     opacity: 1;
   }
-  
-  
+
