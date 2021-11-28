@@ -1,0 +1,8 @@
+.containerq {
+  margin-right: 0;
+  margin-left: 0;
+  background-color: rgb(238, 238, 238);
+}
+.blind {
+  opacity: 0;
+}

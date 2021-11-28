@@ -1,89 +1,159 @@
 <html>
   <head>
-      <title>Skischule Wagstätt</title>
-      <meta name="description" content="page">
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Skischule Wagstätt</title>
+    <meta name="description" content="page">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-      <link rel="shortcut icon" type="image/jpg" href="./favicon.ico"/>
+    <link rel="shortcut icon" type="image/jpg" href="./favicon.ico"/>
 
-      <!-- some tags -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
-      <link rel="stylesheet" href="home.css">
-      <link rel="stylesheet" href="header.css">
-      <link rel="stylesheet" href="footer.css">
+    <!-- some tags -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <!-- work for carusell -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
     <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-      <a href="#" class="navbar-brand">
-        <img src="https://www.skilehrerjobs.at/img137/school-header-51.jpg" alt="">
+      <a href="index.html" class="navbar-brand">
+        <img src="Logo-Skischule.png" alt="">
       </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a href="#" class="nav-link">DE</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">EN</a>
-          </li>
-        </ul>
-      </div>
     </div>
-    <div class="nav-bar">
-      <a href="./home.html" class="nav-elements active-breadcrum">Home</a>
-      <a href="./kurse.html" class="nav-elements">Kurse</a>
-      <a href="./preise.html" class="nav-elements">Preise</a>
-      <a href="./events&more.html" class="nav-elements">Events & More</a>
-      <a href="./kontakt.html" class="nav-elements">Anmeldung & Information</a>
-      <a href="./news.html" class="nav-elements">News</a>
-      <a href="./uu.html" class="nav-elements">Über Uns</a>
-    </div>
-    
-    <!-- <div xclass="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://www.kitzbuehel.com/app/uploads/2020/02/0ec4cc2c-9159-482b-ac6f-1b629015f88a-930x620.jpg);"> -->
-    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./placeholder5.png);">
+        <div class="nav-bar">
+          <a href="./index.html" class="nav-elements active-breadcrum">Home</a>
+          <a href="./kurse.html" class="nav-elements">Kurse</a>
+          <a href="./preise.html" class="nav-elements">Preise</a>
+          <a href="./events&more.html" class="nav-elements">Events & More</a>
+          <a href="./kontakt.html" class="nav-elements">Anmeldung & Information</a>
+          <a href="./news.html" class="nav-elements">News</a>
+          <a href="./uu.html" class="nav-elements">Über Uns</a>
+        </div>
+    <!-- carousel banner -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="width: 100%">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+
+            <div class="item active">
+              <div class="banner"
+                style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(./placeholder5.png);">
+
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="banner"
+                style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(Carving_800x600.png);">
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="banner"
+                style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(Skilehrer_800x300.png);">
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="banner"
+                style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(Follow-Me_800x300.png);">
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="container welcome">
+          <p>Herzlich Willkommen in der</p>
+          <h1>Tiroler Skischule Jochberg Wagstätt!</h1>
+          <p>Unser Team freut sich, Sie auch diesen Winter wieder bei uns begrüßen zu dürfen!</p>
+          <a class="btn btn-danger pl-3 pr-3 pt-2 pb-2 mt-3" href="kurse.html">Zum Kursangebot</a>
+        </div>
+        <div class="infocardalt text-center">
+          <h3>Starten Sie mit uns ab Samstag, den 11. Dezember 2021 in die Wintersaison 2021/2022.</h3>
+          <p>Wir freuen uns auf Sie und wünschen Ihnen eine spannende Zeit in den <a href="https://www.kitzski.at/de/skigebiet-tirol/info/fahrplan-winter-bbag-kitz.html">Kitzbüheler Alpen</a>.</p>
+        </div>
+      <div class="infocard">
         <div class="container">
-        <p>Herzlich Willkommen in der</p>
-        <h1>Tiroler Skischule Jochberg Wagstätt!</h1>
-        <p>Wir zeigen Ihnen das Kitzbüheler Skigebiet aus einer neuen Perspektive</p>
-        <p style="opacity: .9;"><em>„Genial einfach – einfach genial!“</em></p>
-        <a class="btn btn-danger pl-3 pr-3 pt-2 pb-2 mt-3" href="#">Zum Kursangebot</a>
+        <h4>Unabhängig Ihrer Alters- und Leistungsklasse steht für uns Ihre <strong>individuelle</strong>, <strong>zielorientierte</strong> Betreuung an erster
+          Stelle. Wir passen unsere Kursformen Ihren persönlichen Bedürfnissen an.</h4>
+        </div>
       </div>
-    </div>
-    <div class="container">
-      <hr>
-      <div class="container text-center"><h2>3-facher Award-Sieger</h2></div>
-      <hr>
-      <div class="container text-center">
-        <h4>Wir passen unsere Kursformen Ihren persönlichen Bedürfnissen an.</h4>
-        <p>Unabhängig Ihrer Alters- und Leistungsklasse steht für uns Ihre <strong>individuelle</strong>, <strong>zielorientierte</strong> Betreuung an erster Stelle.</p>
+      <div class="infocardalt">
+        <div class="container">
+          <h4>Mit der Erfahrung von mittlerweile 20 Jahren ist unsere familiär geführte Skischule Ihre Anlaufstation rund um den
+          Wintersport in Jochberg. Spielerisch und mit alltagsbezogenen Bewegungsabläufen bringen wir Ihnen den Skisport auf der
+          Piste näher.</h4>
+
+        </div>
       </div>
-      <hr>
-      <div class="container text-center">
-        <h3>Starten Sie mit uns ab Samstag, den 11. Dezember 2021 in die Wintersaison 2021/2022.</h3>
-        <p>Wir freuen uns auf Sie und wünschen Ihnen eine spannende Zeit in den Kitzbüheler Alpen.</p>
+      <div class="infocard">
+        <div class="container">
+          <h4>Unsere xDim’s Intensivkurse mit maximal 5 Gruppen-Teilnehmern bieten Ihnen die perfekte Nähe zum Skilehrer und den
+          maximalen Lernerfolg. Lassen auch Sie sich von unseren Top ausgebildeten Skilehrern beim schönsten Sport der Welt
+          weiterhelfen.</h4>
+        </div>
       </div>
-      <hr>
-    </div>
-    <div class="card-category">
-      3-facher Award-Sieger
-    </div>
-    <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(skiarea.png)">
-      <p>3-facher Award-Sieger</p>
-    </div>
-    <div class="card-product m-3">
-      <img src="placeholder3.png" />
-      <div class="card-product-infos">
-        <h2>Wir passen unsere Kursformen Ihren persönlichen Bedürfnissen an.</h2>
-        <p>Unabhängig Ihrer Alters- und Leistungsklasse steht für uns Ihre <strong>individuelle</strong>, <strong>zielorientierte</strong> Betreuung an erster Stelle.</p>
+      <div class="infocardalt text-center">
+        <h3>Getreu dem Motto <strong>„Genial einfach – einfach genial!“</strong> helfen wir Ihnen, Ihr bestes Ski-Level zu erreichen.</h4>
       </div>
-    </div>
+      <div class="infocard text-center">
+        <h2>3-facher Award-Sieger</h2>
+      </div>
+      <div class="infocard">
+        <div class="awards">
+          <img src="Skiarea_2018.png" alt="">
+          <img src="AWARD 2019 Logo TSJW.jpg" alt="">
+          <img src="AWARD-2019-Logo-TSJW.png" alt="">
+        </div>
+        <br>
+        <div class="container">
+          <p>
+            Im Rahmen des internationalen SkiArea Test Programms konnten wir uns drei Jahre in Folge den Award als Beste Skischule
+            mit der Auszeichnung 5 Schneekristalle in Gold sichern.
+            Der Internationale Skiareatest ist ein anonymer Qualitätscheck mit umfassenden Testkriterien. Seit 26 Jahren ist das
+            Skiareatest-Team im europäischen Alpenraum unterwegs und nimmt Tourismusdestinationen unter die Lupe. Unter der Leitung
+            von Klaus Hönigsberger sammeln über 220 erfahrene Skiareatest-Mitglieder verschiedenster Berufsgruppen und
+            Nationalitäten, darunter Experten aus der Seilbahnbranche, Exekutiv-Beamte, Journalisten und fachlich kompetente
+            Hobby-Skiläufer wie auch Familien mit Kindern, anonym Eindrücke in teilnehmenden Skiresorts im europäischen Alpenraum.
+            Das Skiareatest-Team bewertet mit Know-how, Objektivität, Seriosität und Erfahrung die teilnehmenden Skiresorts bzw.
+            Tourismusdestinationen.
+            Der Internationale Skiareatest hat sich mittlerweile zu einer Premium-Marke entwickelt und dient zur ständigen
+            Weiterentwicklung der Qualität, Sicherheit und der Angebote im Alpentourismus.
+          </p>
+
+        </div>
+        <div class="container text-center">
+          <iframe width="840" height="472" src="https://www.youtube.com/embed/Eh8kWH6wcwM" title="YouTube video player"
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+      </div>
     <div class="footer">
-          <a href="mailto:info@skischule-jochberg-wagstaett.at"><i class="far fa-envelope"></i></a>
-          <a href="https://www.youtube.com/user/SkischuleWagstaett"><i class="fab fa-youtube"></i></a>
-          <a href="https://www.facebook.com/TirolerSkischuleJochbergWagstaett"><i class="fab fa-facebook"></i></a>
-          <a href="https://www.instagram.com/skischule_wagstaett_tsjw/"><i class="fab fa-instagram"></i></a>
-      </div>        
+      <a href="mailto:info@skischule-jochberg-wagstaett.at"><i class="far fa-envelope"></i></a>
+      <a href="https://www.youtube.com/user/SkischuleWagstaett"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.facebook.com/TirolerSkischuleJochbergWagstaett"><i class="fab fa-facebook"></i></a>
+      <a href="https://www.instagram.com/skischule_wagstaett_tsjw/"><i class="fab fa-instagram"></i></a>
     </div>
   </body>
 </html>

@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+.card {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.tg {
+  width: 100%;
+
+}
+.tg-xt05 {
+  background-color: #d61c27;
+  padding: 25px;
+  width: 50%;
+  border: 1px solid grey;
+
+}
+.tg-xt05 h6 {
+  font-size: 20px;
+  justify-self: center;
+  color: aliceblue;
+  /* font-weight: bolder; */
+}
+.tg-0lax {
+  padding: 20px;
+  border: 1px solid grey;
+  background-color: aliceblue;
+  box-shadow: rgb(238, 238, 238);
+}
+.tg-0lac {
+  padding: 20px;
+  border: 1px solid grey;
+  background-color: aliceblue;
+  box-shadow: rgb(238, 238, 238);
+}
+
