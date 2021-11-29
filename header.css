@@ -4,10 +4,9 @@
 
   }
 
-  .navbar-lewagon .navbar-collapse {
+  /* .navbar-lewagon .navbar-collapse {
     flex-grow: 0;
-  }
-
+  } */
   .navbar-lewagon .navbar-brand img {
     width: 150px;
   }
@@ -15,6 +14,9 @@
   .nav-bar {
     display: flex;
     justify-content: space-evenly;
+    width: 100%;
+    margin: 0;
+
   }
   .nav-elements {
     color: black;
@@ -22,10 +24,13 @@
     transition: 0.3s;
     flex-grow: 1;
     text-align: center;
- /* for developemtent only!! */
     background-color: white;
   }
-
+.nav-elements h6 {
+  font-weight: 400;
+  bottom: 0;
+  font-size: 18px;
+}
   .nav-elements:hover {
     color: black;
     text-decoration: none;
@@ -34,3 +39,41 @@
   .active-breadcrum {
     border-bottom: 6px solid #d61c27;
   }
+/*//////////////////////////////////////
+
+
+/* Dropdown button on hover & focus */
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: rgb(238, 238, 238);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
