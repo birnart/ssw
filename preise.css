@@ -14,10 +14,21 @@ body {
   padding: 25px;
   width: 50%;
   border: 1px solid grey;
-
+}
+.tg-xt06 {
+  background-color: #d61c27;
+  padding: 25px;
+  width: 50%;
+  border: 1px solid grey;
 }
 .tg-xt05 h6 {
   font-size: 20px;
+  justify-self: center;
+  color: aliceblue;
+  /* font-weight: bolder; */
+}
+.tg-xt06 h6 {
+  font-size: 16px;
   justify-self: center;
   color: aliceblue;
   /* font-weight: bolder; */
