@@ -35,3 +35,13 @@ p {
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+.blog {
+  font-size: 40px;
+  color: black;
+  opacity: 0.5;
+  text-decoration: none;
+  padding: 0px 10px;
+  }
+  /* .footer a:hover {
+    /* color: $danger; */
+

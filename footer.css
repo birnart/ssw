@@ -26,4 +26,16 @@
     /* color: $danger; */
     opacity: 1;
   }
+.imp {
+  margin-top: 0;
+  padding-bottom: 5px;
+  background-color: #ffffff;
+}
 
+.imp a {
+  color: black;
+  opacity: 0.5;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 0px 10px;
+}
