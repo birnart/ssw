@@ -29,7 +29,7 @@
 
 .awards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .awards img {
   width: 20%;
